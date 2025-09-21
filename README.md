@@ -1,13 +1,20 @@
 # robomas_driver
 
-- 実行コマンド
+## 実行コマンド
 ```bash
 ros2 run robomas_driver robomaster_ros2_ctrl
 ```
 
-モードの切り替え　→　0 : 電流制御モード　　1 : 速度制御モード　　2: 位置制御モード
 
-- 動作確認用
+
+## 動作確認用
+
+### モードの切り替え
+- 0 : 電流制御モード　　
+- 1 : 速度制御モード　　
+- 2 : 位置制御モード
+
+
 ```bash
 ros2 topic pub -1 /rm_cmd_array robomas_driver/MotorCmdArray "
 cmds:

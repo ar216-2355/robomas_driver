@@ -1,7 +1,9 @@
 # robomas_driver
 
 - 実行コマンド
+```bash
 ros2 run robomas_driver robomaster_ros2_ctrl
+```
 
 モードの切り替え　→　0 : 電流制御モード　　1 : 速度制御モード　　2: 位置制御モード
 
